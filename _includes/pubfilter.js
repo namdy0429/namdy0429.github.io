@@ -20,7 +20,7 @@
     item.element = element;
 
     item.authors = (item.authors || []).filter(function(d) {
-      return d !== "Dominik Moritz";
+      return d !== "Daye Nam";
     });
 
     data.push(item);
@@ -100,8 +100,17 @@
 
           var text = document.createElement("span");
           text.classList.add("limited");
-          text.innerText = bucket.key;
-          text.setAttribute("title", bucket.key);
+          
+          // Map display names for publication types
+          var displayName = bucket.key;
+          if (id === "type" && bucket.key === "Conference") {
+            displayName = "Peer-reviewed Conference Publications";
+          } else if (id === "type" && bucket.key === "Journal") {
+            displayName = "Peer-reviewed Journal Publications";
+          }
+          
+          text.innerText = displayName;
+          text.setAttribute("title", displayName);
           var number = document.createElement("span");
           number.classList.add("cnt");
           number.innerText = " (" + bucket.doc_count + ")";

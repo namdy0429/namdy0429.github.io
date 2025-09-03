@@ -1,11 +1,10 @@
 /* TEAM */
-	Author/Theme: Dominik Moritz
-	Twitter: @domoritz
-	Mastodon: @dom@vis.social
-	From: Pittsburgh, PA
+	Author: Daye Nam
+	Twitter: @daye_nam
+	From: Irvine, CA
 
 /* SITE */
-	Language: English / German
+	Language: English
 	Doctype: HTML5
-	IDE: Sublime Text, VIM, VSCode
+	IDE: VSCode
 	Software: Jekyll

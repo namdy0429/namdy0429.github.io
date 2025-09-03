@@ -1,6 +1,56 @@
-- position: Organizer
-  at: DSIA at VIS 2018
-  url: http://www.interactive-analysis.org/
-- position: Program Committee
-  at: HILDA at SIGMOD 2018
-  url: http://hilda.io/2018/
+organizing_committees:
+  - year: 2022
+    name: "ESEC/FSE 2023"
+    position: "Web Chair"
+    url: "https://conf.researchr.org/home/fse-2023"
+
+program_committees:
+  - "ICSE 2026"
+  - "ASE 2025" 
+  - "HumanAI4SE 2025"
+  - "FSE Demo 2025"
+  - "ICSE SEIP 2024"
+  - "ASE Industry 2024"
+  - "FSE Artifact 2021"
+
+paper_reviewing:
+  - "TOSEM 2023-2025"
+  - "Empirical Software Engineering 2024-2025"
+  - "Tiis 2025"
+  - "UIST 2022, 2024"
+  - "Semantic Web Journal 2018"
+
+community_service:
+  - year: 2023
+    name: "ICSE 2023"
+    position: "Student Volunteer"
+  - year: ""
+    name: "CMU Graduate Applicant Support Program at SCS"
+    position: "Organizer"
+  - year: 2022
+    name: "ICSE 2022"
+    position: "Student Volunteer"
+  - year: ""
+    name: "CMU Graduate Applicant Support Program at SCS"
+    position: "Organizer"
+  - year: ""
+    name: "CMU ISR Teaching-Track Faculty Hiring"
+    position: "Committee Member"
+  - year: 2021
+    name: "CMU Graduate Applicant Support Program at SCS"
+    position: "Mentor"
+  - year: 2020
+    name: "ICSE 2020"
+    position: "Student Volunteer"
+  - year: ""
+    name: "CMU Graduate Applicant Support Program at SCS"
+    position: "Department Lead"
+  - year: ""
+    name: "CMU Graduate Applicant Support Program at SCS"
+    position: "Mentor"
+  - year: 2019
+    name: "CMU ISR-SE Ph.D. Admission"
+    position: "Committee Member"
+  - year: 2018
+    name: "ICSE 2018"
+    position: "Student Volunteer"

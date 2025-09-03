@@ -1,22 +1,19 @@
-- university: University of Washington
-  years: 2015-2019
-  degree: Ph.D. in Computer Science & Engineering
-  location: Seattle, WA
+- degree: PhD in Software Engineering
+  university: Carnegie Mellon University
+  years: 2018-2024
+  location: Pittsburgh, PA
   description:
-    - Advised by **Jeffrey Heer** and **Bill Howe**.
-    - "Thesis: \"Interactive Systems for Scalable Visualization & Analysis\"."
-    - Member of the Interactive Data Lab and Database Group.
-- university: University of Washington
-  years: 2013-2015
-  degree: M.S. in Computer Science & Engineering
-  location: Seattle, WA
+    - "Dissertation: [User-Centered Intelligent Information Support for Programmers](https://kilthub.cmu.edu/articles/thesis/User-Centered_Intelligent_Information_Support_for_Programmers/25901368)"
+    - "Advisors: [Brad Myers](https://www.cs.cmu.edu/~bam/), [Bogdan Vasilescu](https://bvasiles.github.io/), and [Vincent Hellendoorn](https://vhellendoorn.github.io/)"
+- degree: MS in Computer Science
+  university: University of Southern California
+  years: 2016-2018
+  location: Los Angeles, CA
   description:
-    - Advised by **Bill Howe** and **Jeffrey Heer**.
-- university: Hasso Plattner Institute
-  years: 2010-2013
-  degree: B.S. in IT-Systems Engineering
-  location: Potsdam, Germany
+    - "Advisor: [Nenad Medvidovic](https://viterbi.usc.edu/directory/faculty/Medvidovic/Nenad)"
+- degree: BS in Computer Science
+  university: Yonsei University
+  years: 2012-2016
+  location: Seoul, South Korea
   description:
-    - "Thesis: \"Algorithms for the Visualization of Software System Evolution\"."
-    - "GPA: 4.0 (1.0 in German system), highest distinction, rank 1/74"
-    - Advanced classes on database implementation, computational geometry, architecture, and logic.
+     - ""

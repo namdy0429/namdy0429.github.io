@@ -1,24 +1,14 @@
-- title: Database query for histograms
-  url: https://patents.google.com/patent/US20180260451A1
-  date: 2017-03-08
+- title: "SEALANT: security for end-users of android via light-weight analysis techniques"
+  date: 2020-11-03
   authors:
-    - Bolin Ding
-    - Chi Wang
-    - Danyel Fisher
-    - Dominik Moritz
-- title: Difference visualization between data sets
-  url: https://patents.google.com/patent/US20180260985A1
-  date: 2017-03-08
-  authors:
-    - Bolin Ding
-    - Chi Wang
-    - Danyel Fisher
-    - Dominik Moritz
-- title: Fast approximate results and slow precise results
-  url: https://patents.google.com/patent/US20180260450A1
-  date: 2017-03-08
-  authors:
-    - Bolin Ding
-    - Chi Wang
-    - Danyel Fisher
-    - Dominik Moritz
+    - Jae Young Bang
+    - Youn Kyu Lee
+    - Nenad Medvidovic
+    - Daye Nam
+    - Gholamreza Safi
+    - Arman Shahbazian
+    - Peera Yoodee
+    - Yixue Zhao
+  patent_number: "US10827349"
+  url: "https://patents.google.com/patent/US10827349B2"
+  description: "A system for providing increased security in mobile operating systems by identifying vulnerable inter-component communication (ICC) paths in mobile applications and storing a list of these paths to help prevent potential unsecure intents."

@@ -6,23 +6,23 @@ title: CV
 
 <section class="container">
 
-<h1><a href="{{ absolute_url }}/">Dominik Moritz</a></h1>
+<h1><a href="{{ absolute_url }}/">Daye Nam</a></h1>
 
-<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">www.domoritz.de/cv</a>.</small>
+<small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">dayenam.github.io/cv</a>.</small>
 
 <div class="header-columns">
   <div>
     <p>
-      Professor at CMU HCII and Research Manager at Apple.<br/>
+      Assistant Professor at UC Irvine<br/>
     </p>
   </div>
   <div>
     <ul class="right-align">
-      <li><i class="fa-solid fa-globe muted"></i> <a href="{{ absolute_url }}/">https://www.domoritz.de</a></li>
-      <li><i class="fa-solid fa-envelope muted"></i> <a href="mailto:domoritz@cmu.edu">domoritz@cmu.edu</a></li>
-      <li><i class="fa-brands fa-bluesky muted"></i> <a href="https://bsky.app/profile/domoritz.de">@domoritz.de</a></li>
-      <li><i class="fa-brands fa-twitter muted"></i> <a href="https://twitter.com/domoritz">@domoritz</a></li>
-      <li><i class="fa-brands fa-mastodon muted"></i> <a href="https://vis.social/@dom">@dom@vis.social</a></li>
+      <li><i class="fa-solid fa-globe muted"></i> <a href="{{ absolute_url }}/">https://dayenam.com</a></li>
+      <li><i class="fa-solid fa-envelope muted"></i> <a href="mailto:daye.nam@uci.edu">daye.nam@uci.edu</a></li>
+      <li><i class="fa-brands fa-github muted"></i> <a href="https://github.com/namdy0429">@namdy0429</a></li>
+      <li><i class="fa-brands fa-twitter muted"></i> <a href="https://twitter.com/daye_nam">@daye_nam</a></li>
+      <li><i class="fa-brands fa-linkedin muted"></i> <a href="https://www.linkedin.com/in/daye-nam/">LinkedIn</a></li>
     </ul>
   </div>
 </div>
@@ -31,8 +31,24 @@ title: CV
 <h2>Research Area</h2>
 
 <p>
-To enhance people's ability to understand and communicate large and complex data, I develop methods that richly integrate the capabilities of both people and machines. I combine methods from <strong>visualization</strong>, <strong>data management</strong>, <strong>programming languages</strong>, and <strong>human-computer interaction</strong> to enable effective methods for data analysis and communication. My systems have won awards at premier academic venues, and are used by journalists, data enthusiasts, developers, educators, and the data science community.
+My research focuses on designing, building, and evaluating AI tools for programmers at all levels, with a strong emphasis on making these tools useful and usable. My ultimate goal is to create a future where building software is more accessible, efficient, and enjoyable for everyone, while ensuring programmers still stay in control. To do so, I work at the intersection of <strong>software engineering</strong>, <strong>AI</strong>, and <strong>human-computer interaction</strong>.
 </p>
+
+
+<h2>Education</h2>
+
+{% for ed in site.data.education %}
+  <div class="date-container">
+    <span class="date">{{ ed.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ ed.degree }}, {{ ed.university }}</strong>
+    <span class="right">{{ ed.location }}</span>
+  </div>
+  <p>
+    {% for des in ed.description %}
+      <span>{{ des | markdownify | remove: '<p>' | remove: '</p>' }}</span>{% unless forloop.last %}<br/>{% endunless %}
+    {% endfor %}
+  </p>
+{% endfor %}
 
 
 <h2>Positions</h2>
@@ -61,41 +77,11 @@ To enhance people's ability to understand and communicate large and complex data
 {% endfor %}
 
 
-<h2>Education</h2>
-
-{% for ed in site.data.education %}
-  <div class="date-container">
-    <span class="date">{{ ed.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{ ed.degree }}, {{ ed.university }}</strong>
-    <span class="right">{{ ed.location }}</span>
-  </div>
-  <p>
-    {% for des in ed.description %}
-      <span>{{ des | markdownify | remove: '<p>' | remove: '</p>' }}</span>{% unless forloop.last %}<br/>{% endunless %}
-    {% endfor %}
-  </p>
-{% endfor %}
-
-
-<h2>Notable Awards</h2>
-
-{% for award in site.data.awards %}
-  <div class="date-container">
-    <span class="date">{{ award.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{ award.name }}</strong>
-    <span class="right">{{ award.sponsor }}</span>
-  </div>
-  <p class="muted">
-    {{ award.description }}
-  </p>
-{% endfor %}
-
-
 <h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
 
 {% assign sorted_pubs = site.publications | reverse %}
 
-{% assign types = "Conference|Journal|Book Chapter|Demo|Workshop|Thesis" | split: "|" %}
+{% assign types = "Preprint|Conference|Journal|Lightly-Reviewed Publications|Thesis" | split: "|" %}
 {% for type in types %}
   {% assign counter = 1 %}
   {% for pub in sorted_pubs %}
@@ -105,7 +91,13 @@ To enhance people's ability to understand and communicate large and complex data
   {% endfor %}
 
   <h3 class="pub-type">
-    {{ type }}
+    {% if type == "Conference" %}
+      Peer-reviewed Conference Publications
+    {% elsif type == "Journal" %}
+      Peer-reviewed Journal Publications
+    {% else %}
+      {{ type }}
+    {% endif %}
   </h3>
 
   {% for pub in sorted_pubs %}
@@ -181,7 +173,7 @@ To enhance people's ability to understand and communicate large and complex data
 {% endfor %}
 
 
-<h2>Student Mentoring</h2>
+<!-- <h2>Student Mentoring</h2>
 
 {% assign filtered_mentoring = site.data.mentoring | where_exp:'item','item.hidden == null' %}
 {% for mentor in filtered_mentoring %}
@@ -207,10 +199,10 @@ To enhance people's ability to understand and communicate large and complex data
     </div>
     <p>{{ mentor.relation }}. {% if mentor.note %}<span class="muted">{{ mentor.note }}</span>{% endif %}</p>
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 
-<h2>Talks  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
+<!-- <h2>Talks  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
@@ -223,7 +215,7 @@ To enhance people's ability to understand and communicate large and complex data
 
     </div>
   {% endfor %}
-{% endfor %}
+{% endfor %} -->
 
 
 <h2>Teaching</h2>
@@ -231,7 +223,7 @@ To enhance people's ability to understand and communicate large and complex data
 {% for teach in site.data.teaching %}
   <div class="date-container">
     <span class="date">{{ teach.year }}</span>
-    <strong class="fill">{{ teach.title }}</strong>
+    <strong class="fill">{% if teach.link %}<a href="{{ teach.link }}">{{ teach.title }}</a>{% else %}{{ teach.title }}{% endif %}</strong>
     <span class="right">{{ teach.location }}</span>
   </div>
   <p>
@@ -249,15 +241,60 @@ To enhance people's ability to understand and communicate large and complex data
 
 <h2>Service</h2>
 
+<h3>Organizing Committees</h3>
+{% for committee in site.data.service.organizing_committees %}
+<div class="date-container">
+  <span class="date">{{ committee.year }}</span>
+  <span class="fill">{% if committee.url %}<a href="{{ committee.url }}">{{ committee.name }}</a>{% else %}{{ committee.name }}{% endif %}</span>
+  <span class="right">{{ committee.position }}</span>
+</div>
+{% endfor %}
+<p></p>
+
+<h3>Program Committees</h3>
 <p>
-  Reviewer for ACM CHI, IEEE VIS, TVCG, EuroVis, PacificVis, Computers & Graphics, HILDA, and DSIA.
-  Program committee for <a href="http://hilda.io/2018/">HILDA 2018</a>, <a href="http://hilda.io/2019/">HILDA 2019</a>, and <a href="http://hilda.io/2020/">HILDA 2020</a>, and program chair for <a href="https://hilda.io/2022/">HILDA 2022</a> and <a href="https://hilda.io/2023/">HILDA 2023</a> at SIGMOD.
-  Organizer of <a href="https://www.interactive-analysis.org/year/2018/">DSIA 2018</a> and <a href="https://www.interactive-analysis.org/">DSIA 2019</a> at VIS.
-  Session chair at CHI 2019, VIS 2019, VIS 2020, VIS 2021, VIS 2023. Program committee at VIS 2020 and 2021. Organizing committee for VIS 2022, VIS 2023, VIS 2024.
-  Maintainer of many open source projects. <a href="https://arrow.apache.org/committers/">Apache Arrow committer</a>.
-  <!-- <br/>
-  Member of the <a href="https://frictionlessdata.io/">Frictionless Data</a> working group that aims to submit a specification to the <a href="https://www.ietf.org/">IETF</a>. -->
+  {% for pc in site.data.service.program_committees %}{{ pc }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 </p>
+
+<h3>Paper Reviewing</h3>
+<p>
+  {% for review in site.data.service.paper_reviewing %}{{ review }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+</p>
+
+<h3>Community Service</h3>
+{% for service in site.data.service.community_service %}
+<div class="date-container">
+  <span class="date">{{ service.year }}</span>
+  <span class="fill">{{ service.name }}</span>
+  <span class="right">{{ service.position }}</span>
+</div>
+{% endfor %}
+
+
+<h2>Awards & Honors</h2>
+
+{% assign awards_by_year = site.data.awards | group_by: "years" | sort: "name" | reverse %}
+{% for year_group in awards_by_year %}
+  {% assign first = true %}
+  {% for award in year_group.items %}
+    <div class="date-container">
+      {% if first %}
+        <span class="date">{{ award.years | replace: "-", "–" }}</span>
+        {% assign first = false %}
+      {% else %}
+        <span class="date"></span>
+      {% endif %}
+      <strong class="fill">{{ award.name }}</strong>
+      {% if award.sponsor %}<span class="right">{{ award.sponsor }}</span>{% endif %}
+    </div>
+    {% if award.description %}
+      <p class="muted">
+        {{ award.description }}
+      </p>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
 
 
 <!-- <h2>Relevant Coursework</h2>
