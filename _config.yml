@@ -3,8 +3,8 @@ title: Daye Nam
 email: daye.nam@uci.edu
 description: "Assistant Professor at UC Irvine.<br/> I study and build intelligent tools for programmers at all levels."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://dayenam.com" # the base hostname & protocol for your site
-production_url: "https://dayenam.com"
+url: "https://namdy0429.github.io" # the base hostname & protocol for your site
+production_url: "https://namdy0429.github.io"
 github_username: namdy0429
 permalink: /blog/:year/:month/:title.html
 
