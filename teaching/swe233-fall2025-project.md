@@ -160,7 +160,7 @@ ul li strong {
 }
 </style>
 
-# SWE 233 Project: Intelligent User Interface Design
+# SWE 233 Project: Intelligent User Interfaces Design
 
 [← Back to Main Syllabus](/teaching/swe233-fall2025/)
 
