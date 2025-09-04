@@ -109,6 +109,55 @@ permalink: /teaching/swe233-fall2025/project/
     padding-left: 20px;
   }
 }
+
+/* Section styling for better visual separation */
+h2 {
+  border-bottom: 2px solid #0083b3;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+h3 {
+  background-color: #f8f9fa;
+  padding: 12px 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-left: 4px solid #0083b3;
+  border-radius: 0 8px 8px 0;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+/* Highlight deadline information */
+h3 + p strong {
+  color: #d63384;
+  font-size: 1.1em;
+}
+
+/* Style requirement lists */
+h2 + p + ul li,
+h3 + p + ul li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Style deliverable sections */
+p strong:first-child {
+  color: #0083b3;
+  font-size: 1.05em;
+}
+
+/* Add spacing between sections */
+h3 + p {
+  margin-top: 15px;
+}
+
+/* Style the key milestones list */
+ul li strong {
+  color: #2c3e50;
+}
 </style>
 
 # SWE 233 Project: Intelligent User Interface Design
@@ -119,17 +168,14 @@ permalink: /teaching/swe233-fall2025/project/
   <h4>Project Navigation</h4>
   <ul>
     <li><a href="#project-guidelines">Project Guidelines</a></li>
-    <li><a href="#project-timeline">Project Timeline</a>
-      <ul>
-        <li><a href="#problem-identification">Problem Identification</a></li>
-        <li><a href="#project-proposal">Project Proposal</a></li>
-        <li><a href="#project-proposal-presentation">Project Proposal Presentation</a></li>
-        <li><a href="#prototype-design">Prototype Design</a></li>
-        <li><a href="#final-report">Final Report</a></li>
-        <li><a href="#presentation">Presentation</a></li>
-        <li><a href="#optional-prototype-implementation">[Optional] Prototype Implementation</a></li>
-      </ul>
-    </li>
+    <li><a href="#project-timeline">Project Timeline</a></li>
+    <li><a href="#problem-identification">Problem Identification</a></li>
+    <li><a href="#project-proposal">Project Proposal</a></li>
+    <li><a href="#project-proposal-presentation">Project Proposal Presentation</a></li>
+    <li><a href="#prototype-design">Prototype Design</a></li>
+    <li><a href="#final-report">Final Report</a></li>
+    <li><a href="#presentation">Presentation</a></li>
+    <li><a href="#optional-prototype-implementation">[Optional] Prototype Implementation</a></li>
   </ul>
 </div>
 
@@ -149,6 +195,14 @@ Throughout the course, you will work on a quarter-long project where you design 
 
 ## Project Timeline
 
+**Key milestones include:**
+- **Problem Identification** (Oct 8) - Identify and scope a problem for intelligent UI solution
+- **Project Proposal** (Oct 27) - Literature review and proposed solution
+- **Proposal Presentation** (Oct 20 & 22) - Present proposal for feedback
+- **Prototype Design** (Nov 17) - System architecture and interface design
+- **Final Report** (Dec 10) - Complete evaluation methodology
+- **Final Presentation** (Dec 1 & 3) - Showcase complete project
+
 **Note**: All project deliverables should be submitted to Canvas by the specified deadlines.
 
 **Important - Iterative Project Structure**: Each written deliverable builds upon previous submissions to create a complete conference paper by the end of the quarter (excluding results section).
@@ -160,7 +214,7 @@ Throughout the course, you will work on a quarter-long project where you design 
 ### Problem Identification
 **Due: October 8, 1 AM PST**  
 
-For the problem identification, you'll need to identify a problem that may be addressed or mitigated by intelligent support. You don't need to have a complete solution yet—focus on identifying a well-scoped problem.
+For the problem identification, you'll need to identify a problem that may be addressed or mitigated by intelligent support. You don't need to have a complete solution yet—focus on identifying a well-scoped problem. This is mainly to discuss and provide feedback for the scope of the paper as early as possible.
 
 **Requirements:**
 
@@ -179,33 +233,33 @@ Building on your problem identification, you will now develop a comprehensive pr
 
 **Requirements:**
 
-- **Literature Review**: Conduct a comprehensive literature review of previous works that aim to address similar problems. The literature review should include at least 10 references and should identify gaps in existing solutions, specifying what is missing or inadequate in current approaches.
+- **Literature Review**: Conduct a comprehensive literature review of previous works that either motivate your project or address similar problems. The literature review should include at least 10 references and should identify gaps in existing solutions, specifying what is missing or inadequate in current approaches.
 
-- **Proposed Solution**: Develop a potential solution that involves an intelligent component such as a recommender system, LLM, AI-powered features, or other intelligent technologies. You must explain how your solution differs from and improves upon existing approaches identified in your literature review.
+- **Proposed Solution**: Develop a potential solution that involves an intelligent component such as a recommender system, LLM, or other intelligent technologies. You must explain how your solution differs from and improves upon existing approaches, if there are any.
 
 - **Academic Writing**: The report should be written in the style of introduction and related works sections of top-tier conference papers (e.g., ICSE, CHI). This means clear problem motivation, systematic literature review, and well-articulated contributions.
 
-**Deliverable**: Submit a 4-6 page report (excluding references) that follows academic conference paper format.
+**Deliverable**: Submit a 1-3 page report excluding references. The conference paper template (double column) will be provided.
 
 **Examples:**
 - Sections Introduction and Background and Related Work in Li, T.J.J. et al. [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://toby.li/files/Li_Pumice_UIST19.pdf).
 
 ### Project Proposal Presentation
-**Dates: October 20 & October 22**
+**Dates: October 20 & October 22, Slides due: October 20, 1AM PST**
 
-Students will present their project proposals to the class for feedback and discussion before finalizing their prototype designs.
+Students will present their project proposals to the class for feedback and discussion before finalizing the report.
 
 **Requirements:**
 
-- **Presentation Length**: 8-10 minutes per presentation with 4-5 minutes for questions and feedback.
+- **Presentation Length**: 5 minutes per presentation with 2-3 minutes for questions and feedback. The order of presentations will be randomly decided.
 
-- **Content Coverage**: Your presentation should cover your problem identification, literature review findings, and proposed intelligent solution. Emphasize the gaps you identified in existing work and how your solution addresses them.
+- **Content Coverage**: Your presentation should cover your problem identification, literature review findings, and proposed intelligent solution. Emphasize the gaps you identified in existing work and how your solution may address them.
 
 - **Literature Review**: Highlight key papers from your literature review and clearly articulate the research gap your project will address.
 
 - **Feedback Integration**: Be prepared to receive and discuss feedback that will help refine your approach before the prototype design phase.
 
-**Deliverable**: Students must submit presentation slides to Canvas by the deadline (1 AM PST), but are free to update slides for the live presentation. Live presentation with supporting slides. The order of presentations will be randomly decided. This presentation serves as preparation for your prototype design submission.
+**Deliverable**: The presentation slides and the live presentation.
 
 ### Prototype Design
 **Due: November 17, 1 AM PST**  
@@ -214,7 +268,7 @@ Now, let's design a solution that supports end-to-end scenarios. You don't need 
 
 **Requirements:**
 
-- **System Design**: The deliverable should be written like the system description section in a CHI/UIST paper that describes the new system. Include a system architecture figure that shows the use case pipeline with a concrete example demonstrating how users would interact with your system. The caption should describe the system architecture graph and explain the flow of information through your system.
+- **System Design**: The deliverable should be written like the system description section in a CHI/UIST paper that describes the new system. Include a system architecture figure that shows how the system will operate to support the use cases. The writing should describe the system architecture diagram and explain the flow of information through your system.
 
 - **Interface Design**: Include a design of the user interface. You don't need to build a working system—this can be mockups, wireframes, or manually created interface images that clearly show how users would interact with your intelligent system.
 
@@ -222,10 +276,10 @@ Now, let's design a solution that supports end-to-end scenarios. You don't need 
 
 - **Technical Implementation Plan**: Include details about what programming languages, frameworks, and libraries you plan to use for implementation. Justify your technology choices based on your system requirements.
 
-**Deliverable**: Submit a 4-6 page design document (excluding references) that includes system architecture diagrams, interface mockups, and technical implementation details.
+**Deliverable**: Submit a 1-3 page system and interface design report (excluding references) that includes system architecture diagrams, interface mockups, and technical implementation details. This should be combined with the previous submission.
 
 **Examples:**
-- Section 4 (and Figure 2) in Liu et al. ["What It Wants Me To Say": Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models](https://arxiv.org/pdf/2304.06597).
+- Section 4 (and Figure 2-4) in Liu et al. ["What It Wants Me To Say": Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models](https://arxiv.org/pdf/2304.06597).
 
 ### Final Report
 **Due: December 10, 1 AM PST**  
@@ -246,30 +300,31 @@ For your final report, you should develop a comprehensive research plan that dem
 
 - **Threats to Validity**: Include a thorough discussion of potential threats to validity and limitations of your proposed evaluation approach. Address internal, external, construct, and conclusion validity concerns.
 
-**Deliverable**: Submit a 6-8 page research plan (excluding references) that includes research questions, detailed evaluation methodology, and validity considerations.
+**Deliverable**: Submit a 1-3 page research plan (excluding references) that includes research questions, detailed evaluation methodology, and validity considerations.
 
 **Examples:**
 - Any relevant paper we read during the quarter.
 
 ### Presentation
-**Dates: December 1 & December 3**
+**Dates: December 1 & December 3, Slides due: December 1, 1 AM PST**
 
 Students will present their final projects to the class, showcasing their intelligent user interface solutions and research plans.
 
 **Requirements:**
 
-- **Presentation Length**: 10-12 minutes per presentation with 3-4 minutes for questions and discussion.
+- **Presentation Length**: 7 minutes per presentation with 3 minutes for questions and discussion.
 
-- **Content Coverage**: Your presentation should cover your problem identification, proposed solution, system design, and evaluation plan. Focus on demonstrating how your intelligent component addresses the identified problem.
+- **Content Coverage**: Your presentation should cover a recap of what you presented in your proposal, and how you designed the system and evaluation plan. Focus on demonstrating how your intelligent component addresses the identified problem. If you chose to implement the prototype, you're highly encouraged to demo your prototype.
 
-- **Visual Materials**: Include slides that show your system architecture, interface mockups, and key findings from your literature review. Visual demonstrations or prototypes are encouraged if available.
+- **Visual Materials**: Include slides that show your system architecture, interface mockups, and key findings from your literature review. 
 
 - **Audience Engagement**: Prepare to answer questions about your design choices, technical implementation, and evaluation methodology.
 
-**Deliverable**: Students must submit presentation slides to Canvas by the deadline (1 AM PST), but are free to update slides for the live presentation. Live presentation with supporting slides. The order of presentations will be randomly decided. No additional written submission required for the presentation component.
+**Deliverable**: The presentation slides and the live presentation.
+
 
 ### [Optional] Prototype Implementation
-**No specific deadline - ongoing throughout quarter**
+**Due: December 10, 1 AM PST**
 
 For students who want to go beyond design and actually implement their intelligent user interface prototype, this optional component provides additional learning opportunities and extra credit.
 
@@ -277,13 +332,11 @@ For students who want to go beyond design and actually implement their intellige
 
 - **Working Prototype**: Implement a functional version of your designed system that demonstrates the core intelligent features you proposed.
 
-- **Technology Stack**: Use the programming languages, frameworks, and libraries you specified in your prototype design document.
-
 - **Core Features**: Focus on implementing the most essential intelligent components rather than a fully polished system.
 
 - **Documentation**: Provide setup instructions, usage examples, and a brief reflection on implementation challenges and learnings.
 
-**Deliverable**: Submit working code (via GitHub repository or similar), demo video (3-5 minutes), and implementation documentation. This can be submitted anytime before the final presentation dates.
+**Deliverable**: Submit working code (via GitHub repository or similar) with reasonable documentation for setup and execution, and a short demo video.
 
 **Grading**: This optional component can contribute up to 10% additional credit to your final course grade.
 
