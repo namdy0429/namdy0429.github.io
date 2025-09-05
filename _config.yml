@@ -18,6 +18,9 @@ collections:
   publications:
     output: false
 
+# Google Analytics
+google_analytics: G-S17N9PY8T8
+
 plugins:
   - jekyll-sitemap
   - jekyll-feed
