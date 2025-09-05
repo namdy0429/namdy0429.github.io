@@ -81,22 +81,22 @@ permalink: /teaching/swe233-fall2025/project/
     border-left: 3px solid #0083b3;
     padding-left: 20px;
   }
-  
+
   .floating-toc h4 {
     cursor: pointer;
     display: block;
   }
-  
+
   .floating-toc h4:after {
     content: " ▼";
     float: right;
     transition: transform 0.2s;
   }
-  
+
   .floating-toc.collapsed h4:after {
     transform: rotate(-90deg);
   }
-  
+
   .floating-toc.collapsed ul {
     display: none;
   }
@@ -212,7 +212,7 @@ Throughout the course, you will work on a quarter-long project where you design 
 - **Final Report**: The entire paper will be evaluated holistically, including all previous sections plus the new evaluation methodology section.
 
 ### Problem Identification
-**Due: October 8, 1 AM PST**  
+**Due: October 8, 1 AM PST**
 
 For the problem identification, you'll need to identify a problem that may be addressed or mitigated by intelligent support. You don't need to have a complete solution yet—focus on identifying a well-scoped problem. This is mainly to discuss and provide feedback for the scope of the paper as early as possible.
 
@@ -226,8 +226,11 @@ For the problem identification, you'll need to identify a problem that may be ad
 
 **Deliverable**: Submit a short abstract (300 words) that covers all the requirements above.
 
+**Examples:**
+- Koopman, [How to Write an Abstract](https://users.ece.cmu.edu/~koopman/essays/abstract.html)
+
 ### Project Proposal
-**Due: October 27, 1 AM PST**  
+**Due: October 27, 1 AM PST**
 
 Building on your problem identification, you will now develop a comprehensive project proposal that includes a thorough literature review and your proposed solution.
 
@@ -262,7 +265,7 @@ Students will present their project proposals to the class for feedback and disc
 **Deliverable**: The presentation slides and the live presentation.
 
 ### Prototype Design
-**Due: November 17, 1 AM PST**  
+**Due: November 17, 1 AM PST**
 
 Now, let's design a solution that supports end-to-end scenarios. You don't need to build the system but should design the system and interface comprehensively.
 
@@ -282,7 +285,7 @@ Now, let's design a solution that supports end-to-end scenarios. You don't need 
 - Section 4 (and Figure 2-4) in Liu et al. ["What It Wants Me To Say": Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models](https://arxiv.org/pdf/2304.06597).
 
 ### Final Report
-**Due: December 10, 1 AM PST**  
+**Due: December 10, 1 AM PST**
 
 For your final report, you should develop a comprehensive research plan that demonstrates how you would evaluate your proposed solution.
 
@@ -316,7 +319,7 @@ Students will present their final projects to the class, showcasing their intell
 
 - **Content Coverage**: Your presentation should cover a recap of what you presented in your proposal, and how you designed the system and evaluation plan. Focus on demonstrating how your intelligent component addresses the identified problem. If you chose to implement the prototype, you're highly encouraged to demo your prototype.
 
-- **Visual Materials**: Include slides that show your system architecture, interface mockups, and key findings from your literature review. 
+- **Visual Materials**: Include slides that show your system architecture, interface mockups, and key findings from your literature review.
 
 - **Audience Engagement**: Prepare to answer questions about your design choices, technical implementation, and evaluation methodology.
 
