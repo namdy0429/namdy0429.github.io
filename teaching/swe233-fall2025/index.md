@@ -358,7 +358,7 @@ By the end of this course, you will be able to:
 <td>Oct 13</td>
 <td>Integrated Development Environment (IDE)<br>
 <small><em>
-• <a href="https://dl.acm.org/doi/abs/10.1145/2568225.2568313">Code bubbles: rethinking the user interface paradigm of integrated development environments</a><br>
+• <a href="https://ieeexplore.ieee.org/document/6062113">Code bubbles: rethinking the user interface paradigm of integrated development environments</a><br>
 • <a href="https://dl.acm.org/doi/10.1145/3586030">Grounded Copilot: How Programmers Interact with Code-Generating Models</a><br>
 • <a href="https://arxiv.org/pdf/2205.06537">Productivity Assessment of Neural Code Completion</a>
 </em></small></td>
@@ -370,7 +370,7 @@ By the end of this course, you will be able to:
 <small><em>
 • <a href="https://dl.acm.org/doi/10.1145/3180155.3180238">Context-aware conversational developer assistants</a><br>
 • <a href="https://dl.acm.org/doi/10.1145/3544548.3581388">Why Jonny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts</a><br>
-• <a href="Need Help? Designing Proactive AI Assistants for Programming">Need Help? Designing Proactive AI Assistants for Programming</a><br>
+• <a href="https://dl.acm.org/doi/full/10.1145/3706598.3714002">Need Help? Designing Proactive AI Assistants for Programming</a><br>
 </em></small></td>
 </tr>
 
@@ -412,7 +412,7 @@ By the end of this course, you will be able to:
 <td>Nov 3</td>
 <td>Debugging & Testing<br>
 <small><em>
-• <a href="https://dl.acm.org/doi/abs/10.1145">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/1368088.1368130">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>
 • <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a><br>
 • <a href="https://dl.acm.org/doi/pdf/10.1145/3611643.3616327">NaNofuzz: A Usable Tool for Automatic Test Generation</a>
 </em></small></td>
@@ -423,7 +423,7 @@ By the end of this course, you will be able to:
 <td>Search & Documentation<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/10.1145/3332165.3347908">Unakite: Scaffolding Developers' Decision-Making Using the Web</a><br>
-• <a href="https://dl.acm.org/doi/abs/10.1145/1806799.1806866">Live API documentation</a>
+• <a href="https://dl.acm.org/doi/abs/10.1145/2568225.2568313">Live API documentation</a>
 </em></small></td>
 </tr>
 
