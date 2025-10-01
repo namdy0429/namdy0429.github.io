@@ -4,10 +4,9 @@ title: "SWE 233: Intelligent User Interfaces"
 permalink: /teaching/swe233-fall2025/
 ---
 
-# SWE 233: Intelligent User Interfaces
-**Fall 2025 • University of California, Irvine**
-
+<!-- Custom Styles -->
 <style>
+/* Floating Table of Contents */
 .floating-toc {
   position: fixed;
   top: 100px;
@@ -74,6 +73,7 @@ permalink: /teaching/swe233-fall2025/
   color: #0083b3;
 }
 
+/* Responsive TOC */
 @media (max-width: 1200px) {
   .floating-toc {
     position: static;
@@ -113,7 +113,7 @@ permalink: /teaching/swe233-fall2025/
   }
 }
 
-/* Schedule table styling */
+/* Schedule Table Styling */
 .schedule-table {
   width: 100%;
   border-collapse: collapse;
@@ -155,21 +155,19 @@ permalink: /teaching/swe233-fall2025/
   background-color: #f0f0f0;
 }
 
-/* Date column styling */
 .schedule-table td:first-child {
   font-weight: 500;
   width: 25%;
   color: #333;
 }
 
-/* Topic column styling */
 .schedule-table td:nth-child(2) {
   font-weight: 500;
   width: 75%;
   color: #2c3e50;
 }
 
-/* Mobile responsiveness */
+/* Mobile Schedule Table */
 @media (max-width: 768px) {
   .schedule-table {
     font-size: 0.8rem;
@@ -189,7 +187,7 @@ permalink: /teaching/swe233-fall2025/
   }
 }
 
-/* Style for greyed out slides placeholders */
+/* Placeholder Slides Styling */
 .slides-placeholder {
   color: #999;
   font-style: italic;
@@ -197,6 +195,7 @@ permalink: /teaching/swe233-fall2025/
 }
 </style>
 
+<!-- Table of Contents -->
 <div class="floating-toc">
   <h4>Table of Contents</h4>
   <ul>
@@ -206,7 +205,6 @@ permalink: /teaching/swe233-fall2025/
         <li><a href="#course-description">Course Description</a></li>
         <li><a href="#learning-goals">Learning Goals</a></li>
         <li><a href="#grading">Grading</a></li>
-        <li><a href="#course-material">Course Material</a></li>
       </ul>
     </li>
     <li><a href="#schedule">Schedule</a></li>
@@ -226,18 +224,17 @@ permalink: /teaching/swe233-fall2025/
   </ul>
 </div>
 
+<!-- TOC JavaScript -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const toc = document.querySelector('.floating-toc');
   const tocHeader = toc.querySelector('h4');
 
-  // Only add click functionality on smaller screens
   function handleTocCollapse() {
     if (window.innerWidth <= 1200) {
       tocHeader.addEventListener('click', function() {
         toc.classList.toggle('collapsed');
       });
-      // Start collapsed on mobile
       if (window.innerWidth <= 768) {
         toc.classList.add('collapsed');
       }
@@ -249,21 +246,24 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+# SWE 233: Intelligent User Interfaces
+**Fall 2025 • University of California, Irvine**
+
 # Overview
 
 ## Course Information
 
-**Instructor:** [Daye Nam](https://dayenam.com)
-**Email:** daye.nam@uci.edu
-**Lecture:** 9:30 AM-10:50 AM PST, MW @ PCB 1200
-**Office Hours:** Tuesday 3:30 PM - 4:30 PM @ ISEB 2430
+**Instructor:** Daye Nam<br>
+**Email:** daye.nam@uci.edu<br>
+**Lecture:** 9:30 AM-10:50 AM PST, MW @ PCB 1200<br>
+**Office Hours:** Monday 4:00 PM - 5:00 PM @ ISEB 2430<br>
 **Course Credits:** 4 units
 
 ## Course Description
 
 This course examines the design, implementation, and evaluation of intelligent user interfaces; interactive systems that use AI techniques to enhance usability, adapt to context, and support user goals. We will focus on applications in software engineering, including intelligent developer tools, AI-assisted programming environments, and data science workflows.
 
-The course begins with fundamentals of user interface design and human-computer interaction, then explores user modeling, personalization, context-aware and adaptive systems, conversational interfaces, and agentic tools. We will discuss trade-offs among different approaches, design for diverse users, and study how to evaluate them.
+The course begins with fundamentals of user interface design and human-computer interaction, then explores user modeling, conversational interfaces, and agentic tools for various software engineering-related tasks and processes. We will discuss trade-offs among different approaches, design for diverse users, and study how to evaluate them.
 
 You will critically analyze research papers from HCI, software engineering, and AI conferences (e.g., CHI, UIST, IUI, ICSE, FSE) and apply these insights in a quarter-long project. Through the project, you will design and prototype an intelligent interface, conduct a literature review, develop a study design, and present your work. The final deliverable will be a research paper draft (in the style of a conference submission) and an evaluation plan, ready to complete with results after the course.
 
@@ -276,7 +276,6 @@ By the end of this course, you will be able to:
 - **Evaluate solutions** through appropriate research methods, metrics, and validity considerations
 - **Conduct research** including literature reviews and academic writing following conference standards
 - **Understand human-AI collaboration** and design interfaces that balance automation with user control
-
 
 <details>
 <summary><strong>Topics Covered</strong></summary>
@@ -303,19 +302,18 @@ By the end of this course, you will be able to:
 
 **Total: 100%**
 
-- **80% Research Project and Assignments** ([view details](/teaching/swe233-fall2025/project/))
-  - **5%** <a href="/teaching/swe233-fall2025/project/#problem-identification">Problem Identification</a>
-  - **25%** <a href="/teaching/swe233-fall2025/project/#project-proposal">Project Proposal</a>
+- **80% Research Project and Assignments** ([view details](project/))
+  - **5%** [Problem Identification](project/#problem-identification)
+  - **25%** [Project Proposal](project/#project-proposal)
     - Report: 15%
-    - <a href="/teaching/swe233-fall2025/project/#project-proposal-presentation">Presentation</a>: 10%
-  - **15%** <a href="/teaching/swe233-fall2025/project/#prototype-design">Prototype Design</a>
-  - **35%** <a href="/teaching/swe233-fall2025/project/#final-report">Final Report</a>
+    - [Presentation](project/#project-proposal-presentation): 10%
+  - **15%** [Prototype Design](project/#prototype-design)
+  - **35%** [Final Report](project/#final-report)
     - Report: 15%
-    - <a href="/teaching/swe233-fall2025/project/#presentation">Presentation</a>: 10%
+    - [Presentation](project/#presentation): 10%
     - Holistic: 10%
-
-- **10%** <a href="#presentations-and-discussions">Paper Presentation</a>
-- **10%** <a href="#attendance">In-Class Participation</a>
+- **10%** [Paper Presentation](#presentations-and-discussions)
+- **10%** [In-Class Participation](#attendance)
 - **[Optional] 10%** Prototype Implementation
 
 **Submission Timing:** All assignments are due at 1 AM PST. I highly recommend submitting by midnight. Deadlines are set so you can complete work before the next class session.
@@ -330,90 +328,177 @@ By the end of this course, you will be able to:
 </tr>
 </thead>
 <tbody>
+
+<!-- Week 1 -->
 <tr>
 <td>Sep 29<br><small><em>In class: Intro survey</em></small></td>
-<td>Introduction to Intelligent User Interfaces<br><span class="slides-placeholder">[slides]</span></td>
+<td>Introduction to Intelligent User Interfaces<br><a href="slides/Introduction.pdf">[slides]</a></td>
 </tr>
+
 <tr>
-<td>Oct 1<br><small><em>In class: Presentation Bidding</em></small></td>
-<td>Foundations of Human-Computer Interaction<br><span class="slides-placeholder">[slides]</span></td>
+<td>Oct 1<br><small><em>Due: <a href="https://docs.google.com/forms/d/e/1FAIpQLScOuXUIm79mPFrKAyzuYRaEQzyBBwgv2fU7IH6yrLZkiknlWw/viewform?usp=header">Presentation Bidding</a></em></small></td>
+<td>A Quick Tour of Human Computer Interaction / User Interface<br><span class="slides-placeholder">[slides]</span></td>
 </tr>
+
+<!-- Week 2 -->
 <tr>
 <td>Oct 6</td>
-<td>User Modeling and Personalization<br><span class="slides-placeholder">[slides]</span></td>
+<td>Overview of Research Methods<br><span class="slides-placeholder">[slides]</span></td>
 </tr>
+
 <tr>
-<td>Oct 8<br><small><em>Due: <a href="/teaching/swe233-fall2025/project/#problem-identification">Problem Identification</a></em></small></td>
-<td>Adaptive and Context-Aware Interfaces<br><span class="slides-placeholder">[slides]</span></td>
+<td>Oct 8<br><small><em>Due: <a href="project/#problem-identification">Problem Identification</a></em></small></td>
+<td>Designing Evaluation<br><span class="slides-placeholder">[slides]</span><br>
+<small><em>
+</em></small></td>
 </tr>
+
+<!-- Week 3 -->
 <tr>
 <td>Oct 13</td>
-<td>Overview of research methods<br><span class="slides-placeholder">[slides]</span></td>
+<td>Integrated Development Environment (IDE)<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/abs/10.1145/2568225.2568313">Code bubbles: rethinking the user interface paradigm of integrated development environments</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/3586030">Grounded Copilot: How Programmers Interact with Code-Generating Models</a><br>
+• <a href="https://arxiv.org/pdf/2205.06537">Productivity Assessment of Neural Code Completion</a>
+</em></small></td>
 </tr>
+
 <tr>
 <td>Oct 15</td>
-<td>Designing evaluation<br><span class="slides-placeholder">[slides]</span><br><small><em>• <a href="https://dl.acm.org/doi/abs/10.1145/1294211.1294256">Evaluating user interface systems research</a><br>• <a href="https://dl.acm.org/doi/abs/10.1007/s10664-013-9279-3">A practical guide to controlled experiments of software engineering tools with human participants</a></em></small></td>
+<td>Conversational UI and Chatbots<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/10.1145/3180155.3180238">Context-aware conversational developer assistants</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/3544548.3581388">Why Jonny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts</a><br>
+• <a href="Need Help? Designing Proactive AI Assistants for Programming">Need Help? Designing Proactive AI Assistants for Programming</a><br>
+</em></small></td>
 </tr>
+
+<!-- Week 4 -->
 <tr>
-<td>Oct 20<br><small><em>Due: <a href="/teaching/swe233-fall2025/project/#project-proposal-presentation">Presentation slides</a><br>In class: Mid-term feedback</em></small></td>
+<td>Oct 20<br><small><em>Due: <a href="project/#project-proposal-presentation">Presentation slides</a></em></small></td>
 <td>Project Proposal & Feedback 1</td>
 </tr>
+
+
 <tr>
 <td>Oct 22</td>
 <td>Project Proposal & Feedback 2</td>
 </tr>
+
+<!-- Week 5 -->
 <tr>
-<td>Oct 27<br><small><em>Due: <a href="/teaching/swe233-fall2025/project/#project-proposal">Project Proposal</a></em></small></td>
-<td>Integrated Development Environment (IDE)<br><small><em>• <a href="https://dl.acm.org/doi/abs/10.1145/2568225.2568313">Code bubbles: rethinking the user interface paradigm of integrated development environments</a></em></small></td>
+<td>Oct 27<br><small><em>Due: <a href="project/#project-proposal">Project Proposal</a></em></small></td>
+<td>Agents<br>
+<small><em>
+• <a href="https://arxiv.org/pdf/2507.22358?">Magentic-UI: Towards Human-in-the-loop Agentic Systems</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/3586183.3606763">Generative Agents: Interactive Simulacra of Human Behavior</a><br>
+</em></small></td>
 </tr>
+
+
 <tr>
 <td>Oct 29</td>
-<td>Conversational UI and Chatbots<br><small><em>• <a href="https://dl.acm.org/doi/10.1145/3180155.3180238">Context-aware conversational developer assistants</a><br>• <a href="https://dl.acm.org/doi/10.1145/3586030">Grounded Copilot: How Programmers Interact with Code-Generating Models</a><br>• <a href="https://dl.acm.org/doi/10.1145/3544548.3581388">Why Jonny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts</a></em></small></td>
+<td>User Modeling & Personalization<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/3746059.3747722">Creating General User Models from Computer Use</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/581339.581402">Supporting Reuse by Delivering Task-Relevant and Personalized Information</a><br>
+</em></small></td>
 </tr>
+
+
+<!-- Week 6 -->
 <tr>
 <td>Nov 3</td>
-<td>Debugging<br><small><em>• <a href="https://dl.acm.org/doi/abs/10.1145">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>• <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a></em></small></td>
+<td>Debugging & Testing<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/abs/10.1145">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/3611643.3616327">NaNofuzz: A Usable Tool for Automatic Test Generation</a>
+</em></small></td>
 </tr>
+
 <tr>
 <td>Nov 5</td>
-<td>Search & Documentation<br><small><em>• <a href="https://dl.acm.org/doi/10.1145/3332165.3347908">Unakite: Scaffolding Developers' Decision-Making Using the Web</a><br>• <a href="https://dl.acm.org/doi/abs/10.1145/1806799.1806866">Live API documentation</a></em></small></td>
+<td>Search & Documentation<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/10.1145/3332165.3347908">Unakite: Scaffolding Developers' Decision-Making Using the Web</a><br>
+• <a href="https://dl.acm.org/doi/abs/10.1145/1806799.1806866">Live API documentation</a>
+</em></small></td>
 </tr>
+
+<!-- Week 7 -->
 <tr>
 <td>Nov 10</td>
-<td>Explainable AI (XAI)<br><small><em>• <a href="https://dl.acm.org/doi/10.1145/3411764.3445646">Interpretable Program Synthesis</a><br>• <a href="https://ieeexplore.ieee.org/document/9920173">Towards Usable Neural Comment Generation via Code-Comment Linkage Interpretation: Method and Empirical Study</a></em></small></td>
+<td>End Users I<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/10.1145/3654777.3676368">SQLucid: Grounding Natural Language Database Queries with Interactive Explanations</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/3472749.3474773">Situated Live Programming for Human-Robot Collaboration</a>
+</em></small></td>
 </tr>
+
 <tr>
 <td>Nov 12</td>
-<td>Data Science<br><small><em>• <a href="https://dl.acm.org/doi/abs/10.1145/3379337.3415842">mage: Fluid Moves Between Code and Graphical Work in Computational Notebooks</a><br>• <a href="https://dl.acm.org/doi/10.1145/3379337.3415869">Small-Step Live Programming by Example</a></em></small></td>
+<td>End Users II<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/10.1145/3379337.3415900">Interactive Program Synthesis by Augmented Examples</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/3654777.3676391">ProgramAlly: Creating Custom Visual Access Programs via Multi-Modal End-User Programming</a>
+</em></small></td>
 </tr>
+
+<!-- Week 8 -->
 <tr>
-<td>Nov 17<br><small><em>Due: <a href="/teaching/swe233-fall2025/project/#prototype-design">Prototype Design</a></em></small></td>
-<td>Multi-modal<br><small><em>• <a href="https://dl.acm.org/doi/abs/10.1145/2076354.2076393">Code space: touch + air gesture hybrid interactions for supporting developer meetings</a><br>• <a href="https://dl.acm.org/doi/abs/10.1145/3397481.3450671">Auto-Icon: An Automated Code Generation Tool for Icon Designs Assisting in UI Development</a></em></small></td>
+<td>Nov 17<br><small><em>Due: <a href="project/#prototype-design">Prototype Design</a></em></small></td>
+<td>Multi-modal<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/abs/10.1145/2076354.2076393">Code space: touch + air gesture hybrid interactions for supporting developer meetings</a><br>
+• <a href="https://dl.acm.org/doi/abs/10.1145/3397481.3450671">Auto-Icon: An Automated Code Generation Tool for Icon Designs Assisting in UI Development</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/1622176.1622213">Sikuli: Using GUI Screenshots for Search and Automation</a>
+</em></small></td>
 </tr>
+
 <tr>
 <td>Nov 19</td>
-<td>End Users<br><small><em>• <a href="https://dl.acm.org/doi/10.1145/3654777.3676368">SQLucid: Grounding Natural Language Database Queries with Interactive Explanations</a><br>• <a href="https://dl.acm.org/doi/10.1145/3472749.3474773">Situated Live Programming for Human-Robot Collaboration</a><br>• <a href="https://dl.acm.org/doi/10.1145/3379337.3415900">Interactive Program Synthesis by Augmented Examples</a></em></small></td>
+<td>Explainable AI (XAI)<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/10.1145/3411764.3445646">Interpretable Program Synthesis</a><br>
+• <a href="https://ieeexplore.ieee.org/document/9920173">Towards Usable Neural Comment Generation via Code-Comment Linkage Interpretation: Method and Empirical Study</a>
+</em></small></td>
 </tr>
+
+<!-- Week 9 -->
 <tr>
 <td>Nov 24</td>
-<td>TBD</td>
+<td>Data Science<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/abs/10.1145/3379337.3415842">mage: Fluid Moves Between Code and Graphical Work in Computational Notebooks</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/3379337.3415869">Small-Step Live Programming by Example</a>
+</em></small></td>
 </tr>
+
+
 <tr>
 <td>Nov 26</td>
 <td>Thanksgiving - No Class</td>
 </tr>
+
+<!-- Week 10 -->
 <tr>
-<td>Dec 1<br><small><em>Due: <a href="/teaching/swe233-fall2025/project/#presentation">Presentation slides</a></em></small></td>
+<td>Dec 1<br><small><em>Due: <a href="project/#presentation">Presentation slides</a></em></small></td>
 <td>Final presentation</td>
 </tr>
+
 <tr>
 <td>Dec 3</td>
 <td>Final presentation</td>
 </tr>
+
+<!-- Finals Week -->
 <tr>
-<td style="text-align: left; vertical-align: top;">Dec 10<br><small><em>Due: <a href="/teaching/swe233-fall2025/project/#final-report">Final Report</a><br>Due: <a href="/teaching/swe233-fall2025/project/#optional-prototype-implementation">[Optional] Prototype Implementation</a></em></small></td>
+<td>Dec 10<br><small><em>Due: <a href="project/#final-report">Final Report</a><br>Due: <a href="project/#optional-prototype-implementation">[Optional] Prototype Implementation</a></em></small></td>
 <td>No final exam (substituted by final presentation) - Final assignments due</td>
 </tr>
+
 </tbody>
 </table>
 
@@ -431,13 +516,13 @@ Throughout the course, you will work on a quarter-long project where you design 
 - **Final Report** (Dec 10) - Complete evaluation methodology
 - **Final Presentation** (Dec 1 & 3) - Showcase complete project
 
-**[→ View Complete Project Requirements](/teaching/swe233-fall2025/project/)**
+**[→ View Complete Project Requirements](project/)**
 
 # Presentations and Discussions
 
 For the second half of the course, we will read and discuss systems with intelligent user interfaces within the software engineering domain.
 
-- **Paper Presentations**: Each student will present at least one paper over the quarter. Each presentation should be 20 minutes. As presenters, you will do a presentation of the paper and connect the paper to many aspects we cover in the first part of the quarter.
+- **Paper Presentations**: Each student will present at least two paper over the quarter. Each presentation should be 20 minutes. As presenters, you will do a presentation of the paper and connect the paper to many aspects we cover in the first part of the quarter.
 
 - **Reading Requirement**: You are expected to read every paper presented during the course before the class.
 
@@ -455,7 +540,7 @@ You are expected to attend classes in person. Classes will not be recorded or av
 
 Each class will have in-class activities and submissions that count toward your final grade. We do not take formal attendance, but your participation grade reflects your presence. Your lowest 2 participation scores will be dropped, giving you 2 no-questions-asked missed classes without grade impact.
 
-Beyond the 3 drops, exceptions are only made for extraordinary circumstances and may involve your academic advisor. Contact me immediately to find solutions together.
+Beyond the 2 drops, exceptions are only made for extraordinary circumstances and may involve your academic advisor. Contact me immediately to find solutions together.
 
 ## Late Work and Absence Policy
 
