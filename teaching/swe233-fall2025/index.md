@@ -337,7 +337,7 @@ By the end of this course, you will be able to:
 
 <tr>
 <td>Oct 1<br><small><em>Due: <a href="https://docs.google.com/forms/d/e/1FAIpQLScOuXUIm79mPFrKAyzuYRaEQzyBBwgv2fU7IH6yrLZkiknlWw/viewform?usp=header">Presentation Bidding</a></em></small></td>
-<td>A Quick Tour of Human Computer Interaction / User Interface<br><span class="slides-placeholder">[slides]</span></td>
+<td>A Quick Tour of Human Computer Interaction / User Interface<br><a href="slides/HCI.pdf">[slides]</a></td>
 </tr>
 
 <!-- Week 2 -->
