@@ -343,7 +343,7 @@ By the end of this course, you will be able to:
 <!-- Week 2 -->
 <tr>
 <td>Oct 6</td>
-<td>Overview of Research Methods<br><span class="slides-placeholder">[slides]</span></td>
+<td>Overview of Research Methods<br><a href="slides/Methods.pdf">[slides]</a></td>
 </tr>
 
 <tr>
