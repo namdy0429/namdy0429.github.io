@@ -359,18 +359,16 @@ By the end of this course, you will be able to:
 <td>Integrated Development Environment (IDE)<br>
 <small><em>
 • <a href="https://ieeexplore.ieee.org/document/6062113">Code bubbles: rethinking the user interface paradigm of integrated development environments</a><br>
-• <a href="https://dl.acm.org/doi/10.1145/3586030">Grounded Copilot: How Programmers Interact with Code-Generating Models</a><br>
 • <a href="https://arxiv.org/pdf/2205.06537">Productivity Assessment of Neural Code Completion</a>
 </em></small></td>
 </tr>
 
 <tr>
 <td>Oct 15</td>
-<td>Conversational UI and Chatbots<br>
+<td>Conversational UI I<br>
 <small><em>
-• <a href="https://dl.acm.org/doi/10.1145/3180155.3180238">Context-aware conversational developer assistants</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/3586030">Grounded Copilot: How Programmers Interact with Code-Generating Models</a><br>
 • <a href="https://dl.acm.org/doi/10.1145/3544548.3581388">Why Jonny Can't Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts</a><br>
-• <a href="https://dl.acm.org/doi/full/10.1145/3706598.3714002">Need Help? Designing Proactive AI Assistants for Programming</a><br>
 </em></small></td>
 </tr>
 
@@ -389,6 +387,16 @@ By the end of this course, you will be able to:
 <!-- Week 5 -->
 <tr>
 <td>Oct 27<br><small><em>Due: <a href="project/#project-proposal">Project Proposal</a></em></small></td>
+<td>Conversational UI II<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/10.1145/3180155.3180238">Context-aware conversational developer assistants</a><br>
+• <a href="https://dl.acm.org/doi/full/10.1145/3706598.3714002">Need Help? Designing Proactive AI Assistants for Programming</a><br>
+</em></small></td>
+</tr>
+
+
+<tr>
+<td>Oct 29</td>
 <td>Agents<br>
 <small><em>
 • <a href="https://arxiv.org/pdf/2507.22358?">Magentic-UI: Towards Human-in-the-loop Agentic Systems</a><br>
@@ -397,24 +405,13 @@ By the end of this course, you will be able to:
 </tr>
 
 
+<!-- Week 6 -->
 <tr>
-<td>Oct 29</td>
+<td>Nov 3</td>
 <td>User Modeling & Personalization<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/pdf/10.1145/3746059.3747722">Creating General User Models from Computer Use</a><br>
 • <a href="https://dl.acm.org/doi/pdf/10.1145/581339.581402">Supporting Reuse by Delivering Task-Relevant and Personalized Information</a><br>
-</em></small></td>
-</tr>
-
-
-<!-- Week 6 -->
-<tr>
-<td>Nov 3</td>
-<td>Debugging & Testing<br>
-<small><em>
-• <a href="https://dl.acm.org/doi/10.1145/1368088.1368130">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>
-• <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a><br>
-• <a href="https://dl.acm.org/doi/pdf/10.1145/3611643.3616327">NaNofuzz: A Usable Tool for Automatic Test Generation</a>
 </em></small></td>
 </tr>
 
@@ -441,8 +438,8 @@ By the end of this course, you will be able to:
 <td>Nov 12</td>
 <td>End Users II<br>
 <small><em>
-• <a href="https://dl.acm.org/doi/10.1145/3379337.3415900">Interactive Program Synthesis by Augmented Examples</a><br>
-• <a href="https://dl.acm.org/doi/pdf/10.1145/3654777.3676391">ProgramAlly: Creating Custom Visual Access Programs via Multi-Modal End-User Programming</a>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/3654777.3676391">ProgramAlly: Creating Custom Visual Access Programs via Multi-Modal End-User Programming</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/3379337.3415869">Small-Step Live Programming by Example</a>
 </em></small></td>
 </tr>
 
@@ -459,20 +456,21 @@ By the end of this course, you will be able to:
 
 <tr>
 <td>Nov 19</td>
-<td>Explainable AI (XAI)<br>
+<td>Debugging & Testing<br>
 <small><em>
-• <a href="https://dl.acm.org/doi/10.1145/3411764.3445646">Interpretable Program Synthesis</a><br>
-• <a href="https://ieeexplore.ieee.org/document/9920173">Towards Usable Neural Comment Generation via Code-Comment Linkage Interpretation: Method and Empirical Study</a>
+• <a href="https://dl.acm.org/doi/10.1145/1368088.1368130">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>
+• <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/3611643.3616327">NaNofuzz: A Usable Tool for Automatic Test Generation</a>
 </em></small></td>
 </tr>
 
 <!-- Week 9 -->
 <tr>
 <td>Nov 24</td>
-<td>Data Science<br>
+<td>Explainable AI (XAI)<br>
 <small><em>
-• <a href="https://dl.acm.org/doi/abs/10.1145/3379337.3415842">mage: Fluid Moves Between Code and Graphical Work in Computational Notebooks</a><br>
-• <a href="https://dl.acm.org/doi/10.1145/3379337.3415869">Small-Step Live Programming by Example</a>
+• <a href="https://dl.acm.org/doi/10.1145/3411764.3445646">Interpretable Program Synthesis</a><br>
+• <a href="https://ieeexplore.ieee.org/document/9920173">Towards Usable Neural Comment Generation via Code-Comment Linkage Interpretation: Method and Empirical Study</a>
 </em></small></td>
 </tr>
 
