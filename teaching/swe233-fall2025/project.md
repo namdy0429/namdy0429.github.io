@@ -149,6 +149,12 @@ p strong:first-child {
   font-size: 1.05em;
 }
 
+/* Style requirement list labels */
+ul li > strong:first-child {
+  color: #0083b3;
+  font-size: 1.05em;
+}
+
 /* Add spacing between sections */
 h3 + p {
   margin-top: 15px;
@@ -156,6 +162,11 @@ h3 + p {
 
 /* Style the key milestones list */
 ul li strong {
+  color: #2c3e50;
+}
+
+/* Ensure nested lists also get styled */
+ul ul li strong {
   color: #2c3e50;
 }
 </style>
@@ -242,7 +253,11 @@ Building on your problem identification, you will now develop a comprehensive pr
 
 - **Academic Writing**: The report should be written in the style of introduction and related works sections of top-tier conference papers (e.g., ICSE, CHI). This means clear problem motivation, systematic literature review, and well-articulated contributions.
 
-**Deliverable**: Submit a 1-3 page report excluding references. The conference paper template (double column) will be provided.
+**Deliverable**: Submit a 1-3 page report excluding references using the ACM LaTeX format.
+
+**Format Requirements:**
+- Use the [ACM Article Template](https://www.acm.org/publications/proceedings-template) with `\documentclass[sigconf,review]{acmart}`
+- Alternatively, you can use this [Overleaf ACM Conference Template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-master-template/pnrfvrrdbfwt)
 
 **Examples:**
 - Sections Introduction and Background and Related Work in Li, T.J.J. et al. [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://toby.li/files/Li_Pumice_UIST19.pdf).
@@ -281,6 +296,10 @@ Now, let's design a solution that supports end-to-end scenarios. You don't need 
 
 **Deliverable**: Submit a 1-3 page system and interface design report (excluding references) that includes system architecture diagrams, interface mockups, and technical implementation details. This should be combined with the previous submission.
 
+**Format Requirements:**
+- Use the [ACM Article Template](https://www.acm.org/publications/proceedings-template) with `\documentclass[sigconf,review]{acmart}`
+- Alternatively, you can use this [Overleaf ACM Conference Template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-master-template/pnrfvrrdbfwt)
+
 **Examples:**
 - Section 4 (and Figure 2-4) in Liu et al. ["What It Wants Me To Say": Bridging the Abstraction Gap Between End-User Programmers and Code-Generating Large Language Models](https://arxiv.org/pdf/2304.06597).
 
@@ -303,7 +322,11 @@ For your final report, you should develop a comprehensive research plan that dem
 
 - **Threats to Validity**: Include a thorough discussion of potential threats to validity and limitations of your proposed evaluation approach. Address internal, external, construct, and conclusion validity concerns.
 
-**Deliverable**: Submit a 1-3 page research plan (excluding references) that includes research questions, detailed evaluation methodology, and validity considerations.
+**Deliverable**: Submit a 6-10 page full paper (excluding references) that includes all previous sections (problem identification, literature review, proposed solution, system design) along with research questions, detailed evaluation methodology, and validity considerations.
+
+**Format Requirements:**
+- Use the [ACM Article Template](https://www.acm.org/publications/proceedings-template) with `\documentclass[sigconf,review]{acmart}`
+- Alternatively, you can use this [Overleaf ACM Conference Template](https://www.overleaf.com/latex/templates/acm-conference-proceedings-master-template/pnrfvrrdbfwt)
 
 **Examples:**
 - Any relevant paper we read during the quarter.

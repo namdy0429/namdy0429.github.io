@@ -292,7 +292,6 @@ By the end of this course, you will be able to:
 <li>IDEs and AI-Powered Programming Tools</li>
 <li>Debugging and Search Interfaces</li>
 <li>Data Science Workflows and Computational Notebooks</li>
-<li>Explainable AI (XAI) in User Interfaces</li>
 <li>Trust, Transparency, and User Control in Intelligent Systems</li>
 <li>Ethics and Inclusive Design in Intelligent Systems</li>
 </ul>
@@ -417,16 +416,6 @@ By the end of this course, you will be able to:
 
 <tr>
 <td>Nov 5</td>
-<td>Search & Documentation<br>
-<small><em>
-• <a href="https://dl.acm.org/doi/10.1145/3332165.3347908">Unakite: Scaffolding Developers' Decision-Making Using the Web</a><br>
-• <a href="https://dl.acm.org/doi/abs/10.1145/2568225.2568313">Live API documentation</a>
-</em></small></td>
-</tr>
-
-<!-- Week 7 -->
-<tr>
-<td>Nov 10</td>
 <td>End Users I<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/10.1145/3654777.3676368">SQLucid: Grounding Natural Language Database Queries with Interactive Explanations</a><br>
@@ -434,8 +423,9 @@ By the end of this course, you will be able to:
 </em></small></td>
 </tr>
 
+<!-- Week 7 -->
 <tr>
-<td>Nov 12</td>
+<td>Nov 10</td>
 <td>End Users II<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/pdf/10.1145/3654777.3676391">ProgramAlly: Creating Custom Visual Access Programs via Multi-Modal End-User Programming</a><br>
@@ -443,14 +433,22 @@ By the end of this course, you will be able to:
 </em></small></td>
 </tr>
 
+<tr>
+<td>Nov 12</td>
+<td>UI<br>
+<small><em>
+• <a href="https://dl.acm.org/doi/abs/10.1145/3397481.3450671">Auto-Icon: An Automated Code Generation Tool for Icon Designs Assisting in UI Development</a><br>
+• <a href="https://dl.acm.org/doi/pdf/10.1145/1622176.1622213">Sikuli: Using GUI Screenshots for Search and Automation</a>
+</em></small></td>
+</tr>
+
 <!-- Week 8 -->
 <tr>
 <td>Nov 17<br><small><em>Due: <a href="project/#prototype-design">Prototype Design</a></em></small></td>
-<td>Multi-modal<br>
+<td>Collaboration<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/abs/10.1145/2076354.2076393">Code space: touch + air gesture hybrid interactions for supporting developer meetings</a><br>
-• <a href="https://dl.acm.org/doi/abs/10.1145/3397481.3450671">Auto-Icon: An Automated Code Generation Tool for Icon Designs Assisting in UI Development</a><br>
-• <a href="https://dl.acm.org/doi/pdf/10.1145/1622176.1622213">Sikuli: Using GUI Screenshots for Search and Automation</a>
+• <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a>
 </em></small></td>
 </tr>
 
@@ -459,7 +457,6 @@ By the end of this course, you will be able to:
 <td>Debugging & Testing<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/10.1145/1368088.1368130">Debugging reinvented: asking and answering why and why not questions about program behavior</a><br>
-• <a href="https://dl.acm.org/doi/10.1145/1753326.1753478">What would other programmers do: suggesting solutions to error messages</a><br>
 • <a href="https://dl.acm.org/doi/pdf/10.1145/3611643.3616327">NaNofuzz: A Usable Tool for Automatic Test Generation</a>
 </em></small></td>
 </tr>
@@ -467,13 +464,8 @@ By the end of this course, you will be able to:
 <!-- Week 9 -->
 <tr>
 <td>Nov 24</td>
-<td>Explainable AI (XAI)<br>
-<small><em>
-• <a href="https://dl.acm.org/doi/10.1145/3411764.3445646">Interpretable Program Synthesis</a><br>
-• <a href="https://ieeexplore.ieee.org/document/9920173">Towards Usable Neural Comment Generation via Code-Comment Linkage Interpretation: Method and Empirical Study</a>
-</em></small></td>
+<td>Thanksgiving - No Class</td>
 </tr>
-
 
 <tr>
 <td>Nov 26</td>
@@ -520,7 +512,14 @@ Throughout the course, you will work on a quarter-long project where you design 
 
 For the second half of the course, we will read and discuss systems with intelligent user interfaces within the software engineering domain.
 
-- **Paper Presentations**: Each student will present at least two paper over the quarter. Each presentation should be 20 minutes. As presenters, you will do a presentation of the paper and connect the paper to many aspects we cover in the first part of the quarter.
+- **Paper Presentations**: Each student will present at least two papers over the quarter. Each presentation should be 20 minutes. As presenters, you will:
+  - Summarize main research questions, proposed methods, and key contributions
+  - Focus on the used methodologies; if not covered in the previous classes, please delve deeper into the details
+  - Prepare 3 discussion questions
+
+- **Slide Upload Deadline**: Slides must be uploaded by 1 am on the day you're presenting the paper
+  - e.g., if you're presenting a paper on Oct 8, you should finalize your slides by October 8, 1 am
+  - Upload your slides to the #presentation-slides channel on Slack
 
 - **Reading Requirement**: You are expected to read every paper presented during the course before the class.
 
