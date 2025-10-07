@@ -464,7 +464,7 @@ By the end of this course, you will be able to:
 <!-- Week 9 -->
 <tr>
 <td>Nov 24</td>
-<td>Thanksgiving - No Class</td>
+<td>Wrap-up & Course Review<br><span class="slides-placeholder">[slides]</span></td>
 </tr>
 
 <tr>
