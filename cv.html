@@ -81,7 +81,7 @@ My research focuses on designing, building, and evaluating AI tools for programm
 
 {% assign sorted_pubs = site.publications | reverse %}
 
-{% assign types = "Preprint|Conference|Journal|Lightly-Reviewed Publications|Thesis" | split: "|" %}
+{% assign types = "Preprint|Peer-reviewed Conference|Peer-reviewed Journal|Lightly-Reviewed Publications|Thesis" | split: "|" %}
 {% for type in types %}
   {% assign counter = 1 %}
   {% for pub in sorted_pubs %}
@@ -91,9 +91,9 @@ My research focuses on designing, building, and evaluating AI tools for programm
   {% endfor %}
 
   <h3 class="pub-type">
-    {% if type == "Conference" %}
+    {% if type == "Peer-reviewed Conference" %}
       Peer-reviewed Conference Publications
-    {% elsif type == "Journal" %}
+    {% elsif type == "Peer-reviewed Journal" %}
       Peer-reviewed Journal Publications
     {% else %}
       {{ type }}
