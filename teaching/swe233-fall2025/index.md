@@ -209,14 +209,14 @@ permalink: /teaching/swe233-fall2025/
     </li>
     <li><a href="#schedule">Schedule</a></li>
     <li><a href="#project">Project</a></li>
-    <li><a href="#presentations-and-discussions">Presentations and Discussions</a></li>
+    <li><a href="#presentations-and-discussions">Paper Reading</a></li>
     <li><a href="#logistics">Logistics</a>
       <ul>
         <li><a href="#time-management">Time Management</a></li>
         <li><a href="#attendance">Attendance</a></li>
         <li><a href="#late-work-and-absence-policy">Late Work Policy</a></li>
         <li><a href="#policy-on-the-use-of-generative-ai-tools">AI Tools Policy</a></li>
-        <li><a href="#feedback-for-the-course">Feedback for the Course</a></li>
+        <li><a href="#feedback-for-the-course">Feedback</a></li>
         <li><a href="#accommodations">Accommodations</a></li>
         <li><a href="#a-note-for-self-care">Self Care</a></li>
       </ul>
@@ -347,7 +347,7 @@ By the end of this course, you will be able to:
 
 <tr>
 <td>Oct 8<br><small><em>Due: <a href="project/#problem-identification">Problem Identification</a></em></small></td>
-<td>Designing Evaluation<br><span class="slides-placeholder">[slides]</span><br>
+<td>Designing Evaluation<br><a href="slides/Methods2.pdf">[slides]</a><br>
 <small><em>
 </em></small></td>
 </tr>
