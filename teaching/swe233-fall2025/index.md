@@ -373,19 +373,7 @@ By the end of this course, you will be able to:
 
 <!-- Week 4 -->
 <tr>
-<td>Oct 20<br><small><em>Due: <a href="project/#project-proposal-presentation">Presentation slides</a></em></small></td>
-<td>Project Proposal & Feedback 1</td>
-</tr>
-
-
-<tr>
-<td>Oct 22</td>
-<td>Project Proposal & Feedback 2</td>
-</tr>
-
-<!-- Week 5 -->
-<tr>
-<td>Oct 27<br><small><em>Due: <a href="project/#project-proposal">Project Proposal</a></em></small></td>
+<td>Oct 20</td>
 <td>Conversational UI II<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/10.1145/3180155.3180238">Context-aware conversational developer assistants</a><br>
@@ -395,7 +383,7 @@ By the end of this course, you will be able to:
 
 
 <tr>
-<td>Oct 29</td>
+<td>Oct 22</td>
 <td>Agents<br>
 <small><em>
 • <a href="https://arxiv.org/pdf/2507.22358?">Magentic-UI: Towards Human-in-the-loop Agentic Systems</a><br>
@@ -403,10 +391,22 @@ By the end of this course, you will be able to:
 </em></small></td>
 </tr>
 
+<!-- Week 5 -->
+<tr>
+<td>Oct 27<br><small><em>Due: <a href="project/#project-proposal-presentation">Presentation slides</a></em></small></td>
+<td>Project Proposal & Feedback 1</td>
+</tr>
+
+
+<tr>
+<td>Oct 29</td>
+<td>Project Proposal & Feedback 2</td>
+</tr>
+
 
 <!-- Week 6 -->
 <tr>
-<td>Nov 3</td>
+<td>Nov 3<br><small><em>Due: <a href="project/#project-proposal">Project Proposal</a></em></small></td>
 <td>User Modeling & Personalization<br>
 <small><em>
 • <a href="https://dl.acm.org/doi/pdf/10.1145/3746059.3747722">Creating General User Models from Computer Use</a><br>
