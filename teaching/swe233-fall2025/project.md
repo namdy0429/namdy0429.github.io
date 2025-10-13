@@ -253,7 +253,7 @@ Building on your problem identification, you will now develop a comprehensive pr
 
 - **Academic Writing**: The report should be written in the style of introduction and related works sections of top-tier conference papers (e.g., ICSE, CHI). This means clear problem motivation, systematic literature review, and well-articulated contributions.
 
-**Deliverable**: Submit a 1-3 page report excluding references using the ACM LaTeX format.
+**Deliverable**: Submit a 1-3 page report using the ACM LaTeX format as a PDF file. The page limit excludes references, which should still be included in your submission.
 
 **Format Requirements:**
 - Use the [ACM Article Template](https://www.acm.org/publications/proceedings-template) with `\documentclass[sigconf,review]{acmart}`
@@ -294,7 +294,7 @@ Now, let's design a solution that supports end-to-end scenarios. You don't need 
 
 - **Technical Implementation Plan**: Include details about what programming languages, frameworks, and libraries you plan to use for implementation. Justify your technology choices based on your system requirements.
 
-**Deliverable**: Submit a 1-3 page system and interface design report (excluding references) that includes system architecture diagrams, interface mockups, and technical implementation details. This should be combined with the previous submission.
+**Deliverable**: Submit a 1-3 page system and interface design report as a PDF file that includes system architecture diagrams, interface mockups, and technical implementation details. This should be combined with the previous submission for a total of 3-6 pages. The page limit excludes references, which should still be included in your submission.
 
 **Format Requirements:**
 - Use the [ACM Article Template](https://www.acm.org/publications/proceedings-template) with `\documentclass[sigconf,review]{acmart}`
@@ -322,7 +322,7 @@ For your final report, you should develop a comprehensive research plan that dem
 
 - **Threats to Validity**: Include a thorough discussion of potential threats to validity and limitations of your proposed evaluation approach. Address internal, external, construct, and conclusion validity concerns.
 
-**Deliverable**: Submit a 6-10 page full paper (excluding references) that includes all previous sections (problem identification, literature review, proposed solution, system design) along with research questions, detailed evaluation methodology, and validity considerations.
+**Deliverable**: Submit a 6-10 page full paper as a PDF file that includes all previous sections (problem identification, literature review, proposed solution, system design) along with research questions, detailed evaluation methodology, and validity considerations. The page limit excludes references, which should still be included in your submission.
 
 **Format Requirements:**
 - Use the [ACM Article Template](https://www.acm.org/publications/proceedings-template) with `\documentclass[sigconf,review]{acmart}`
