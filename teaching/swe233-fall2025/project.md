@@ -208,8 +208,8 @@ Throughout the course, you will work on a quarter-long project where you design 
 
 **Key milestones include:**
 - **Problem Identification** (Oct 8) - Identify and scope a problem for intelligent UI solution
-- **Project Proposal** (Oct 27) - Literature review and proposed solution
-- **Proposal Presentation** (Oct 20 & 22) - Present proposal for feedback
+- **Project Proposal** (Nov 3) - Literature review and proposed solution
+- **Proposal Presentation** (Oct 27 & 29) - Present proposal for feedback
 - **Prototype Design** (Nov 17) - System architecture and interface design
 - **Final Report** (Dec 10) - Complete evaluation methodology
 - **Final Presentation** (Dec 1 & 3) - Showcase complete project
@@ -241,7 +241,7 @@ For the problem identification, you'll need to identify a problem that may be ad
 - Koopman, [How to Write an Abstract](https://users.ece.cmu.edu/~koopman/essays/abstract.html)
 
 ### Project Proposal
-**Due: October 27, 1 AM PST**
+**Due: November 3, 1 AM PST**
 
 Building on your problem identification, you will now develop a comprehensive project proposal that includes a thorough literature review and your proposed solution.
 
@@ -264,7 +264,7 @@ Building on your problem identification, you will now develop a comprehensive pr
 - Sections Introduction and Related Work in Stylos et al. [Improving API Documentation Using API Usage Information](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5295283).
 
 ### Project Proposal Presentation
-**Dates: October 20 & October 22, Slides due: October 20, 1AM PST**
+**Dates: October 27 & October 29, Slides due: October 27, 1AM PST**
 
 Students will present their project proposals to the class for feedback and discussion before finalizing the report.
 
