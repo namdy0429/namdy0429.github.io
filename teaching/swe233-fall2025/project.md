@@ -249,7 +249,7 @@ Building on your problem identification, you will now develop a comprehensive pr
 
 - **Literature Review**: Conduct a comprehensive literature review of previous works that either motivate your project or address similar problems. The literature review should include at least 10 references and should identify gaps in existing solutions, specifying what is missing or inadequate in current approaches.
 
-- **Proposed Solution**: Develop a potential solution that involves an intelligent component such as a recommender system, LLM, or other intelligent technologies. You must explain how your solution differs from and improves upon existing approaches, if there are any.
+- **Proposed Solution**: Develop a potential solution that involves an intelligent component such as a recommender system, LLM, or other intelligent technologies. You must explain how your solution differs from and improves upon existing approaches, if there are any. When discussing your contribution, you can pretend that you have already built the solution to help articulate its value and novelty.
 
 - **Academic Writing**: The report should be written in the style of introduction and related works sections of top-tier conference papers (e.g., ICSE, CHI). This means clear problem motivation, systematic literature review, and well-articulated contributions.
 
@@ -261,6 +261,7 @@ Building on your problem identification, you will now develop a comprehensive pr
 
 **Examples:**
 - Sections Introduction and Background and Related Work in Li, T.J.J. et al. [PUMICE: A Multi-Modal Agent that Learns Concepts and Conditionals from Natural Language and Demonstrations](https://toby.li/files/Li_Pumice_UIST19.pdf).
+- Sections Introduction and Related Work in Stylos et al. [Improving API Documentation Using API Usage Information](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5295283).
 
 ### Project Proposal Presentation
 **Dates: October 20 & October 22, Slides due: October 20, 1AM PST**
