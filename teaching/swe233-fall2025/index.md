@@ -512,7 +512,7 @@ Throughout the course, you will work on a quarter-long project where you design 
 
 For the second half of the course, we will read and discuss systems with intelligent user interfaces within the software engineering domain.
 
-- **Paper Presentations**: Each student will present at least two papers over the quarter. Each presentation should be 20 minutes. As presenters, you will:
+- **Paper Presentations**: Each student will present at least two papers over the quarter. Each presentation should be 10-15 minutes. As presenters, you will:
   - Summarize main research questions, proposed methods, and key contributions
   - Focus on the used methodologies; if not covered in the previous classes, please delve deeper into the details
   - Prepare 3 discussion questions
