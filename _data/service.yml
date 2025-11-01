@@ -1,12 +1,17 @@
 organizing_committees:
+  - year: 2026
+    name: "HumenAISE 2026"
+    position: "Organizing Committee"
+    url: ""
   - year: 2022
     name: "ESEC/FSE 2023"
     position: "Web Chair"
     url: "https://conf.researchr.org/home/fse-2023"
 
 program_committees:
+  - "FSE IVR 2026"
   - "ICSE 2026"
-  - "ASE 2025" 
+  - "ASE 2025"
   - "HumanAI4SE 2025"
   - "FSE Demo 2025"
   - "ICSE SEIP 2024"
