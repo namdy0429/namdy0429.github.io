@@ -500,8 +500,8 @@ Throughout the course, you will work on a quarter-long project where you design 
 
 **Key milestones include:**
 - **Problem Identification** (Oct 8) - Identify and scope a problem for intelligent UI solution
-- **Project Proposal** (Oct 27) - Literature review and proposed solution
-- **Proposal Presentation** (Oct 20 & 22) - Present proposal for feedback
+- **Project Proposal** (Nov 3) - Literature review and proposed solution
+- **Proposal Presentation** (Oct 27 & 29) - Present proposal for feedback
 - **Prototype Design** (Nov 17) - System architecture and interface design
 - **Final Report** (Dec 10) - Complete evaluation methodology
 - **Final Presentation** (Dec 1 & 3) - Showcase complete project
