@@ -339,7 +339,7 @@ Students will present their final projects to the class, showcasing their intell
 
 **Requirements:**
 
-- **Presentation Length**: 7 minutes per presentation with 3 minutes for questions and discussion.
+- **Presentation Length**: 10 minutes per presentation with 3 minutes for questions and discussion.
 
 - **Content Coverage**: Your presentation should cover a recap of what you presented in your proposal, and how you designed the system and evaluation plan. Focus on demonstrating how your intelligent component addresses the identified problem. If you chose to implement the prototype, you're highly encouraged to demo your prototype.
 
