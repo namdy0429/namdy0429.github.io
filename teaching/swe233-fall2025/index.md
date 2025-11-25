@@ -465,8 +465,6 @@ By the end of this course, you will be able to:
 <tr>
 <td>Nov 24</td>
 <td>Wrap-up & Course Review<br><a href="slides/Recap.pdf">[slides]</a></td>
-
-<td>Overview of Research Methods<br><a href="slides/Methods.pdf">[slides]</a></td>
 </tr>
 
 <tr>
