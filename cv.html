@@ -79,7 +79,7 @@ My research focuses on designing, building, and evaluating AI tools for programm
 
 <h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
 
-{% assign sorted_pubs = site.publications | reverse %}
+{% assign sorted_pubs = site.publications | sort: 'year' | reverse %}
 
 {% assign types = "Preprint|Peer-reviewed Conference|Peer-reviewed Journal|Lightly-Reviewed Publications|Thesis" | split: "|" %}
 {% for type in types %}
