@@ -1,4 +1,8 @@
 organizing_committees:
+  - year: 2027
+    name: "SANER 2027"
+    position: "Industry Track Co-Chair"
+    url: ""
   - year: 2026
     name: "HumenAISE 2026"
     position: "Organizing Committee"
@@ -9,6 +13,7 @@ organizing_committees:
     url: "https://conf.researchr.org/home/fse-2023"
 
 program_committees:
+  - "FSE Posters 2026"
   - "FSE IVR 2026"
   - "ICSE 2026"
   - "ASE 2025"
