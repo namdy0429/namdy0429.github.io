@@ -24,6 +24,7 @@ program_committees:
   - "FSE Artifact 2021"
 
 paper_reviewing:
+  - "TSE 2026"
   - "TOSEM 2023-2025"
   - "Empirical Software Engineering 2024-2025"
   - "Tiis 2025"
