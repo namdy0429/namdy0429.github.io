@@ -13,6 +13,9 @@ organizing_committees:
     url: "https://conf.researchr.org/home/fse-2023"
 
 program_committees:
+  - "FSE 2027"
+  - "ICSE 2027"
+  - "ASE 2026"
   - "FSE Posters 2026"
   - "FSE IVR 2026"
   - "ICSE 2026"
