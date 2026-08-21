@@ -44,3 +44,5 @@ University of California, Irvine
 
 </div>
 
+> I am looking for motivated students for undergraduate and graduate students. Please read [this note]({{ "/group/" | relative_url }}) for more details.
+
