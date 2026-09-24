@@ -14,6 +14,14 @@ class: home
 .me picture {
   margin-bottom: 12px;
 }
+.callout {
+  background-color: #e8f4f8;
+  border-left: 4px solid #2a7ab5;
+  padding: 16px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #1a1a1a;
+}
 </style>
 
 # Hi, I'm Daye Nam
@@ -44,5 +52,7 @@ University of California, Irvine
 
 </div>
 
-> I am looking for motivated undergraduate and graduate students. Please read [this note]({{ "/group/" | relative_url }}) for more details.
+<div class="callout" markdown="1">
+I am looking for motivated undergraduate and graduate students. Please read the [FAQ]({{ "/faq/" | relative_url }}) for more details.
+</div>
 
